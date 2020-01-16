@@ -3,7 +3,7 @@ package org.swissbib.memobase.oai.common
 import java.time.Instant
 import org.swissbib.memobase.oai.common.util.ResumptionToken
 
-trait OAIRequest {
+trait OAIRequest extends OaiConstants {
 
   def set (set:String) : Unit
   def metadataPrefix(prefix: String): Unit

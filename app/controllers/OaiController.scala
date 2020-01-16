@@ -5,6 +5,7 @@ import modules.{KafkaComponent, SolrComponent}
 import play.api.Configuration
 import play.api.mvc.{AbstractController, Action, AnyContent, ControllerComponents, Rendering}
 
+
 class OaiController @Inject()(cc: ControllerComponents,
                               config: Configuration,
                               kafka:KafkaComponent
